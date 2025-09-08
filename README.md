@@ -33,21 +33,21 @@ WebExplorer introduces a systematic approach for training long-horizon web agent
 | GLM-4.5 | 26.4 | 37.5 | 66.0† | 65.6† | 78.9† | 70.0† | 21.2† |
 | DeepSeek-V3.1 | 30.0 | 49.2 | 63.1† | 61.2† | 83.7 | 71.2 | 29.8 |
 | Kimi-K2† | 14.1 | 28.8 | 57.7 | 63.0 | 72.0 | 50.0 | 18.1 |
-|-------|-------|-------|------|-------------|--------|-----------|-----|
-| WebShaper-72B | - | - | 60.0 | 52.2 | - | - | - |
+|====|====|====|====|====|====|====|====|
+| WebShaper-72B | - | - | **60.0** | 52.2 | - | - | - |
 | WebShaper-32B (QwQ) | - | - | 53.3 | 49.7 | - | - | - |
 | WebShaper-32B | - | - | 52.4 | 51.4 | - | - | - |
-| WebSailor-72B | 12.0 | 30.1 | 55.4 | - | - | 55.0 | - |
+| WebSailor-72B | 12.0 | 30.1 | 55.4 | - | - | **55.0** | - |
 | WebSailor-32B | 10.5 | 25.5 | 53.2 | - | - | 53.3 | - |
 | WebSailor-7B | 6.7 | 14.2 | 33.0 | - | - | 34.3 | - |
 | ASearcher-Web-QwQ | 5.2 | 15.6 | 52.8 | 34.3 | 70.9 | 42.1 | 12.5 |
 | WebThinker-32B | 2.8 | - | 48.5 | 46.5 | - | - | 15.8 |
 | MiroThinker-32B-DPO-v0.1 | 13.0 | 17.0 | 57.3 | 49.3 | 71.7 | - | 11.8 |
 | MiroThinker-8B-DPO-v0.1 | 8.7 | 13.6 | 46.6 | 45.7 | 64.4 | - | - |
-| **WebExplorer-8B (SFT)** | 7.9 | 21.3 | 43.7 | 59.8 | 72.6 | 47.5 | 16.0 |
-| **WebExplorer-8B (RL)** | **15.7** | **32.0** | **50.0** | **62.7** | **75.7** | **53.7** | **17.3** |
+| WebExplorer-8B (SFT) | 7.9 | 21.3 | 43.7 | 59.8 | 72.6 | 47.5 | 16.0 |
+| WebExplorer-8B (RL) | <u>**15.7**</u> | <u>**32.0**</u> | <u>50.0</u> | <u>**62.7**</u> | <u>**75.7**</u> | <u>53.7</u> | <u>**17.3**</u> |
 
-*Note: † indicates results from official reports or papers.*
+Accuracy (%) of web agents on information-seeking benchmarks. BC-en and BC-zh denote BrowseComp-en and BrowseComp-zh respectively. XBench-DS refers to XBench-DeepSearch. **Bold** indicates the best performance among open-source models < 100B, while <u>underlined</u> values represent the best performance among models < 10B parameters. All scores of WebExplorer-8B are computed as Avg@4 using LLM-as-Judge. Entries marked with a dagger (†) were reproduced by us under our scaffold: on model name = entire row; on a number = that entry only.
 
 ## ✨ Key Features
 
