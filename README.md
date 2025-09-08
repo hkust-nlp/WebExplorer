@@ -16,7 +16,7 @@ WebExplorer introduces a systematic approach for training long-horizon web agent
 
 
 ## 🔥 News
-- **[2025/01/08]** :fire: We released our model [WebExplorer-8B](https://huggingface.co/hkust-nlp/WebExplorer-8B) and dataset [WebExplorer-QA](https://huggingface.co/datasets/hkust-nlp/WebExplorer-QA) with 100 high-quality query-answer pairs!
+- **[2025/09/08]** :fire: We released our model [WebExplorer-8B](https://huggingface.co/hkust-nlp/WebExplorer-8B) and dataset [WebExplorer-QA](https://huggingface.co/datasets/hkust-nlp/WebExplorer-QA) with 100 high-quality query-answer pairs!
 
 
 ## 📊 Key Results
