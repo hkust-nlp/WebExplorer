@@ -11,7 +11,7 @@ WebExplorer introduces a systematic approach for training long-horizon web agent
 
 <div align="center">
   <img src="assets/pipeline.png" alt="WebExplorer Pipeline" width="800"/>
-  <p><em>WebExplorer Training Pipeline</em></p>
+  <p><em>WebExplorer-QA Construction Pipeline</em></p>
 </div>
 
 
