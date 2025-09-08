@@ -45,9 +45,9 @@ WebExplorer introduces a systematic approach for training long-horizon web agent
 | MiroThinker-32B-DPO-v0.1 | 13.0 | 17.0 | 57.3 | 49.3 | 71.7 | - | 11.8 |
 | MiroThinker-8B-DPO-v0.1 | 8.7 | 13.6 | 46.6 | 45.7 | 64.4 | - | - |
 | WebExplorer-8B (SFT) | 7.9 | 21.3 | 43.7 | 59.8 | 72.6 | 47.5 | 16.0 |
-| WebExplorer-8B (RL) | <u>**15.7**</u> | <u>**32.0**</u> | <u>50.0</u> | <u>**62.7**</u> | <u>**75.7**</u> | <u>53.7</u> | <u>**17.3**</u> |
+| WebExplorer-8B (RL) | <ins>**15.7**</ins> | <ins>**32.0**</ins> | <ins>50.0</ins> | <ins>**62.7**</ins> | <ins>**75.7**</ins> | <ins>53.7</ins> | <ins>**17.3**</ins> |
 
-Accuracy (%) of web agents on information-seeking benchmarks. BC-en and BC-zh denote BrowseComp-en and BrowseComp-zh respectively. XBench-DS refers to XBench-DeepSearch. **Bold** indicates the best performance among open-source models < 100B, while <u>underlined</u> values represent the best performance among models < 10B parameters. All scores of WebExplorer-8B are computed as Avg@4 using LLM-as-Judge. Entries marked with a dagger (†) were reproduced by us under our scaffold: on model name = entire row; on a number = that entry only.
+Accuracy (%) of web agents on information-seeking benchmarks. BC-en and BC-zh denote BrowseComp-en and BrowseComp-zh respectively. XBench-DS refers to XBench-DeepSearch. **Bold** indicates the best performance among open-source models < 100B, while <ins>underlined</ins> values represent the best performance among models < 10B parameters. All scores of WebExplorer-8B are computed as Avg@4 using LLM-as-Judge. Entries marked with a dagger (†) were reproduced by us under our scaffold: on model name = entire row; on a number = that entry only.
 
 ## ✨ Key Features
 
