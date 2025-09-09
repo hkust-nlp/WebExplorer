@@ -1,6 +1,6 @@
 # WebExplorer: Explore and Evolve for Training Long-Horizon Web Agents
 
-<!-- [![Paper](https://img.shields.io/badge/Paper-arXiv-red.svg)](https://arxiv.org/abs/2025.xxx) -->
+[![Paper](https://img.shields.io/badge/Paper-arXiv-red.svg)](https://arxiv.org/abs/2509.06501)
 [![Model](https://img.shields.io/badge/🤗%20Model-WebExplorer--8B-blue)](https://huggingface.co/hkust-nlp/WebExplorer-8B)
 [![Dataset](https://img.shields.io/badge/🤗%20Dataset-WebExplorer--QA-green)](https://huggingface.co/datasets/hkust-nlp/WebExplorer-QA)
 [![License](https://img.shields.io/badge/License-Apache--2.0-green.svg)](LICENSE)
@@ -126,15 +126,18 @@ WebExplorer-8B supports two tools for web interaction:
 ```
 
 
-<!-- ## 📝 Citation
+## 📝 Citation
 
 If you find our work useful, please consider citing:
 
 ```bibtex
-@article{webexplorer2025,
-  title={WebExplorer: Explore and Evolve for Training Long-Horizon Web Agents},
-  author={Your Authors},
-  journal={arXiv preprint},
-  year={2025}
+@misc{liu2025webexplorer,
+      title={WebExplorer: Explore and Evolve for Training Long-Horizon Web Agents}, 
+      author={Junteng Liu and Yunji Li and Chi Zhang and Jingyang Li and Aili Chen and Ke Ji and Weiyu Cheng and Zijia Wu and Chengyu Du and Qidi Xu and Jiayuan Song and Zhengmao Zhu and Wenhu Chen and Pengyu Zhao and Junxian He},
+      year={2025},
+      eprint={2509.06501},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2509.06501}, 
 }
-``` -->
+```
