@@ -5,9 +5,15 @@
 [![Dataset](https://img.shields.io/badge/🤗%20Dataset-WebExplorer--QA-green)](https://huggingface.co/datasets/hkust-nlp/WebExplorer-QA)
 [![License](https://img.shields.io/badge/License-Apache--2.0-green.svg)](LICENSE)
 
+
+*WebExplorer is a collaboration between HKUST and MiniMax.*
+
 ## Abstract
 
+
 WebExplorer introduces a systematic approach for training long-horizon web agents through model-based exploration and iterative query evolution. Our method generates challenging query-answer pairs requiring multi-step reasoning and complex web navigation, achieving state-of-the-art performance at 8B parameter scale.
+
+
 
 <div align="center">
   <img src="assets/pipeline.png" alt="WebExplorer Pipeline" width="800"/>
